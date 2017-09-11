@@ -1634,6 +1634,7 @@ button.expand {
 	-webkit-transform: translate3d(-40px, 0, 0);
 	transform: translate3d(-40px, 0, 0);
 	-ms-transform: translate3d(-40px, 0, 0);
+	border-radius: 50%;
 }
 
 .img:hover img {
@@ -2100,4 +2101,44 @@ ul.legals li:last-child::after {
 
 #modal-10 li{
 	margin-bottom:20px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+	background-color: #F5F5F5;
+	color: black;
+}
+
+.title1 {
+  color: black;
+  font-size: 18px;
+}
+.co{
+	color: black;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+button:hover, a:hover {
+  opacity: 0.7;
+	background-color: #1bce7c;
 }
